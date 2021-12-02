@@ -39,10 +39,25 @@ font-weight: 700;
 line-height: 31px;
 letter-spacing: 0.03em;
 text-align: left;
+
+color: var(--theme-color);
 }
-.webstudio:hover,
-.webstudio:focus{
-    color: var(--theme-color)
+.webstudio-header:hover,
+.webstudio-header:focus{
+    color: var(--theme-color);
+}
+
+.studio{
+font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0.03em;
+text-align: left;
+
+color: var(--text-primary);
+
 }
 
 
@@ -95,7 +110,7 @@ text-align: left;
     text-align: center;
     
 
-/*color: #FFFFFF;*/
+color: #FFFFFF;
 }
 
 
@@ -115,6 +130,17 @@ width: 200px;
 left: 700px;
 top: 430px;
 border-radius: 4px;
+
+}
+
+.hero-box{
+    height: 600px;
+width: 1600px;
+left: 0px;
+top: 80px;
+border-radius: 0px;
+
+ background: #2F303A;
 
 }
 
@@ -198,10 +224,24 @@ font-weight: 700;
 line-height: 31px;
 letter-spacing: 0.03em;
 text-align: left;
+
+color: var(--theme-color);
+}
+
+.studio-footer{
+font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0.03em;
+text-align: left;
+
+color: #FFFFFF;
 }
 .webstudio-footer:hover,
 .webstudio-footer:focus{
-    color: var(--theme-color)
+    color: var(--theme-color);
 }
 
 .footer-map,
@@ -215,7 +255,7 @@ text-align: left;
     letter-spacing: 0.03em;
     text-align: left;
 
-    /*color: #FFFFFF;*/
+    color: #FFFFFF;
 }
 
 .footer-map:hover,
@@ -226,6 +266,30 @@ text-align: left;
 .footer-mail:focus{
     color: var(--theme-color);
 }
+
+.footer-first{
+    height: 252px;
+width: 1600px;
+left: 0px;
+top: 2097px;
+border-radius: 0px;
+
+background-color: #2F303A;
+}
+
+
+.hero-box{
+    height: 600px;
+width: 1600px;
+left: 0px;
+top: 80px;
+border-radius: 0px;
+
+background-color: #2F303A;
+}
+    
+
+
 /*==========================================*/
 
 
@@ -249,7 +313,7 @@ text-align: center;
     background-color: var(--theme-color);
 }
 
-.all-photos{
+.about{
     font-family: Roboto;
 font-size: 18px;
 font-style: normal;
@@ -273,3 +337,18 @@ text-align: left;
 color: var(--text-secondary);
 }
 
+
+
+
+
+
+
+.footer-second{
+    height: 252px;
+width: 1600px;
+left: 0px;
+top: 2097px;
+border-radius: 0px;
+
+background-color: #2F303A;
+}
