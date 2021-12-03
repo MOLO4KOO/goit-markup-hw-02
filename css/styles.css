@@ -133,6 +133,12 @@ border-radius: 4px;
 
 }
 
+.main-batton:focus,
+.main-button:hover{
+    background-color: #188CE8;
+}
+
+
 .hero-box{
     height: 600px;
 width: 1600px;
@@ -179,6 +185,11 @@ text-align: center;
 
 color: var(--text-primary);
 }
+
+.team-bg{
+background: #F5F4FA;
+}
+
 
 .our-team{
     font-family: Roboto;
@@ -244,7 +255,19 @@ color: #FFFFFF;
     color: var(--theme-color);
 }
 
-.footer-map,
+.footer-map{
+    font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+
+color: #FFFFFF;
+}
+
+
 .footer-phone,
 .footer-mail{
     font-family: Roboto;
@@ -255,7 +278,7 @@ color: #FFFFFF;
     letter-spacing: 0.03em;
     text-align: left;
 
-    color: #FFFFFF;
+    color: #FFFFFF99;
 }
 
 .footer-map:hover,
@@ -310,6 +333,8 @@ text-align: center;
 }
 .buttons-partfolio:hover,
 .buttons-partfolio:focus{
+
+    color: #FFFFFF;
     background-color: var(--theme-color);
 }
 
